@@ -1,26 +1,328 @@
 @import "tailwindcss";
 
+/* Dark theme is driven by <html data-theme="dark"> (set before paint by the inline
+   script in app/layout.tsx), so `dark:` utilities follow the user's choice, not just the OS. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ───────────────────────────── Design tokens ─────────────────────────────
+   Brand colours are sampled from the Reseny logo: violet "Business Mercantech"
+   (#5c17e9) as the primary, with the mark's rose / orange / amber / green as accents. */
 :root {
+  color-scheme: light;
+
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #120c2b;
+  --surface: #f7f5fd;
+  --surface-2: #efebfb;
+  --card: #ffffff;
+  --muted-foreground: #4f4a6e;
+  --subtle-foreground: #6a6689;
+  --border: #e7e3f4;
+  --border-strong: #cdc6e6;
+  --input: #d3cce9;
+
+  --primary: #5c17e9;
+  --primary-hover: #4a0fd0;
+  --primary-foreground: #ffffff;
+  --primary-soft: #efe8ff;
+  --primary-text: #5c17e9;
+  --ring: #7a4cff;
+
+  --success: #0f7a46;
+  --success-soft: #e3f5ec;
+  --warning: #9a5200;
+  --warning-soft: #fff1d1;
+  --danger: #c0262d;
+  --danger-soft: #fdeceb;
+
+  --rose: #d9467a;
+  --orange: #f0892e;
+  --amber: #f5b800;
+  --green: #1fa463;
+
+  --shadow-card: 0 1px 2px rgb(18 12 43 / 0.05), 0 12px 32px -14px rgb(60 30 150 / 0.2);
+  --shadow-pop: 0 24px 60px -24px rgb(60 30 150 / 0.4);
+  --shadow-glow: 0 10px 30px -8px rgb(92 23 233 / 0.55);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: #0a0714;
+  --foreground: #f4f2ff;
+  --surface: #0f0b1f;
+  --surface-2: #161030;
+  --card: #120d26;
+  --muted-foreground: #b9b4d8;
+  --subtle-foreground: #948fba;
+  --border: #261f45;
+  --border-strong: #3a3166;
+  --input: #3a3166;
+
+  --primary: #7b3ff2;
+  --primary-hover: #8d57f6;
+  --primary-foreground: #ffffff;
+  --primary-soft: #1d1443;
+  --primary-text: #b69cff;
+  --ring: #9b78ff;
+
+  --success: #46d79c;
+  --success-soft: #0e2a20;
+  --warning: #ffc861;
+  --warning-soft: #2f2108;
+  --danger: #ff8a8f;
+  --danger-soft: #34111a;
+
+  --rose: #ff6fa3;
+  --orange: #ffa24f;
+  --amber: #ffd23f;
+  --green: #4cd68c;
+
+  --shadow-card: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 16px 40px -18px rgb(0 0 0 / 0.75);
+  --shadow-pop: 0 28px 70px -24px rgb(0 0 0 / 0.85);
+  --shadow-glow: 0 10px 34px -8px rgb(123 63 242 / 0.6);
 }
 
 @theme inline {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-card: var(--card);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-subtle-foreground: var(--subtle-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-text: var(--primary-text);
+  --color-ring: var(--ring);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-rose: var(--rose);
+  --color-orange: var(--orange);
+  --color-amber: var(--amber);
+  --color-green: var(--green);
+
+  --shadow-card: var(--shadow-card);
+  --shadow-pop: var(--shadow-pop);
+  --shadow-glow: var(--shadow-glow);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  --animate-marquee: marquee 48s linear infinite;
+  --animate-marquee-reverse: marquee 56s linear infinite reverse;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-wave: wave 1.15s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.6s linear infinite;
+  --animate-ring-shake: ring-shake 1.6s ease-in-out infinite;
+  --animate-pop-in: pop-in 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+  --animate-slide-up: slide-up 0.45s ease-out both;
+  --animate-blink: blink 1.1s steps(1) infinite;
+}
+
+/* Keyframes live at the top level (not inside @theme) so they are always emitted,
+   including for the raw `animation:` declarations below. */
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.25); }
+  50% { transform: scaleY(1); }
+}
+@keyframes shimmer {
+  to { background-position-x: -200%; }
+}
+@keyframes ring-shake {
+  0%, 55%, 100% { transform: rotate(0); }
+  8%, 24%, 40% { transform: rotate(-14deg); }
+  16%, 32%, 48% { transform: rotate(14deg); }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.88) translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* ───────────────────────────── Base ───────────────────────────── */
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    /* `clip` (unlike `hidden`) does not create a scroll container, so sticky positioning keeps working. */
+    overflow-x: clip;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--primary) 28%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+  p, li {
+    text-wrap: pretty;
+  }
+
+  button,
+  [role="button"],
+  summary,
+  select {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Native <dialog> (mobile menu, exit-intent offer): centred by default, scroll-locked while open. */
+  dialog {
+    margin: auto;
+    color: inherit;
+  }
+  body:has(dialog[open]) {
+    overflow: hidden;
+  }
+
+  /* Route content fades in on every (re)show: cheap "smooth page transition". */
+  main {
+    animation: slide-up 0.35s ease-out both;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ───────────────────────────── Utilities ───────────────────────────── */
+@utility container-page {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (min-width: 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+/* Headline accent: violet → rose → orange (the logo's warm sweep). */
+@utility text-gradient {
+  background-image: linear-gradient(95deg, #5c17e9 0%, #d9467a 58%, #f0892e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Lighter stops so the accent keeps its contrast on the dark surfaces. */
+[data-theme="dark"] .text-gradient {
+  background-image: linear-gradient(95deg, #a98aff 0%, #ff6fa3 58%, #ffa24f 100%);
+}
+
+/* The full logo rainbow, used sparingly (thin rules, borders). */
+@utility bg-rainbow {
+  background-image: linear-gradient(90deg, #5c17e9, #d97275 30%, #e6924d 52%, #f5cb06 74%, #2eaf53);
+}
+
+@utility bg-brand {
+  background-image: linear-gradient(135deg, #7440ff 0%, #5c17e9 48%, #4510c4 100%);
+}
+
+@utility bg-hero-glow {
+  background-image:
+    radial-gradient(60% 55% at 88% -8%, color-mix(in oklab, var(--primary) 20%, transparent), transparent 70%),
+    radial-gradient(45% 45% at 0% 8%, color-mix(in oklab, var(--orange) 15%, transparent), transparent 70%),
+    radial-gradient(40% 40% at 55% 100%, color-mix(in oklab, var(--rose) 9%, transparent), transparent 70%);
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(70% 60% at 50% 0%, #000 25%, transparent 75%);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Scroll-driven reveal: pure CSS, no JS and no hydration flash. Browsers without
+   `animation-timeline` (or users who prefer reduced motion) just see the content. */
+@utility reveal {
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      animation: reveal-up linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 80%;
+    }
+  }
+}
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(1.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ───────────────────────────── Reduced motion ───────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

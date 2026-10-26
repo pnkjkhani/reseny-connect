@@ -1,0 +1,251 @@
+Reseny Connect: Website Workflow & Brand SOP
+Reseny Business Mercantech, an initiative by Astransys Group | Parent: Astransys Global Pvt Ltd (IT company since 2017) | Website: www.resenyconnect.com
+1. Executive Summary
+Reseny Connect is an agentic-AI calling platform that calls leads automatically, qualifies them, follows up, and books appointments. Our competitors win on one axis: enterprise breadth, India-first voice and developer credibility, telephony scale, Self-serve, prompt-to-agent onboarding. None of them leads with the single outcome a business owner actually buys: a booked appointment on the calendar.
+The recommended strategy:
+•	Position Reseny as "lead-to-appointment autopilot", not as a voice-AI toolkit. Outcome first, technology second.
+•	Make the website itself the demo. A visitor enters their number and, within seconds, receives a call from a Reseny AI agent that qualifies them and books their demo slot. Your product sells itself on your own homepage.
+•	Serve both ends of the market: simple, self-serve, owner-friendly pages for small businesses, and trust, compliance and integration pages for mid-market and enterprise.
+•	Build a compliance and trust layer (India telecom and data-privacy readiness, data handling, human handoff) as a visible selling point, because buyers are increasingly asking about it.
+•	Use the Astransys heritage (IT company since 2017) as a credibility anchor that pure start-up competitors cannot copy.
+  2. Why We are Different from our Competitors:
+•	Every one of them has a prominent demo or trial call to action above the fold.
+•	The strongest ones let the visitor experience the product instantly.
+•	Industry pages and use-case pages are universal; so are integration pages, pricing, case studies and a blog.
+•	Comparison and "alternatives" content is a proven search-traffic engine.
+•	Nobody combines instant live demo, outcome-first messaging, owner-friendly pricing and visible compliance in one coherent experience. That is Reseny's gap.
+3. Where Reseny Wins: Gap Analysis
+Opportunity	Competitor reality	Reseny move
+Instant proof	Demos exist but are mostly audio or builder sandboxes	"Get a call from Reseny in 30 seconds" on the homepage; the AI calls the visitor, qualifies them and books their slot
+Outcome messaging	Platform, stack, agents, infrastructure	"Every lead called. Every follow-up done. Every appointment booked."
+Small business	Mostly enterprise or developer framing	Dedicated owner pages by profession, plain language, ready templates, simple pricing
+Trust and compliance	Mentioned in passing	A full Trust Center page: consent, calling windows, DND handling, data privacy, human handoff, call recording policy
+Follow-up loop	Calls are the product	Call, WhatsApp, SMS and email follow-up in one cadence, with no-show recovery and rebooking
+Pricing clarity	Hidden or contact-us	Public plans, a calculator, and a clear "pilot in 7 days" offer
+Local credibility	Start-up brands	"Backed by Astransys, building IT solutions since 2017" across the site
+Switching ease	Little migration content	Dedicated comparison pages and a "switch from your dialer" guide
+4. Positioning, Tagline and USP
+Brand: Reseny. 
+Product: Reseny Connect.
+ Company: Reseny Business Mercantech, an initiative by Astransys Group.
+Positioning statement: For businesses that live and die by lead response, Reseny Connect is the AI calling agent that contacts every lead within seconds, qualifies them in their own language, follows up until they respond, and books the appointment, so your team only talks to people who are ready to buy.
+Tagline:
+•	From lead to booked meeting, on autopilot.
+The USP (the one thing to repeat everywhere)
+Reseny closes the loop. Most tools make calls. Reseny takes a raw lead all the way to a confirmed appointment on your calendar: call, qualify, follow up, rebook, remind, and hand over to a human with the full conversation summary.
+Supporting USPs
+1.	Speed to lead: contact within seconds of enquiry, 24x7, including nights and holidays.
+2.	Multilingual and local: speaks the customer's language, including mixed languages such as Hinglish, with natural interruption handling. (List the exact languages you have tested before publishing.)
+3.	Complete follow-up cadence: voice plus WhatsApp, SMS and email, with smart retry timing.
+4.	Booking built in: live calendar sync, reschedule, reminders and no-show recovery.
+5.	Qualification you control: your own questions, scoring and routing rules, with hot leads sent to humans instantly.
+6.	Compliance by design: consent capture, calling-window controls, do-not-disturb handling, recording and data policies.
+7.	Live in days, not months: done-for-you onboarding backed by Astransys engineers.
+8.	Pay for results: transparent plans (and, if commercially viable, an outcome-linked option).
+You should only publish claims you can prove. Fill the numbers (latency, languages, accuracy, uptime) from your own tests, and avoid copying competitor statistics.
+5. Target Market
+5.1 By Business Size
+•	Solo owners and small businesses (1 to 20 staff): cannot afford a telecaller team, lose leads to missed calls. Need a simple setup, templates and a low monthly price.
+•	Growing SMEs (20 to 200 staff): have a CRM and a sales team but slow follow-up. Need integrations, reporting and handoff.
+•	Mid-market and enterprise: high lead volume, compliance needs, multiple locations. Need security, APIs, SLAs and private deployment.
+•	Agencies, consultants and resellers: want to offer AI calling to their own clients under their brand (a white-label or partner program).
+5.2 By Sector (Each Gets Its Own Landing Page)
+Sector
+Real estate and builders
+Education and coaching
+Healthcare, clinics, diagnostics, dental, wellness
+Banking, NBFC, fintech, loans
+Insurance
+Automotive
+E-commerce and D2C
+Travel and hospitality
+Restaurants and food
+Home services, interiors, solar, repair
+Salons, spas, fitness and gyms
+Recruitment and HR
+SaaS, IT services and B2B
+Events and exhibitions
+Logistics and utilities
+Government-linked and NGOs
+5.3 By Function Inside a Business
+Sales, marketing, customer support, collections and finance, HR and recruitment, operations and field service.
+5.4 How Small and Large Business Owners Benefit
+For a small business owner:
+•	No more lost leads. The enquiry that arrives at 11 pm or while you are busy gets a call within seconds, not tomorrow morning.
+•	No telecaller to hire, train or replace. The agent works every day, never forgets a follow-up and never has a bad day.
+•	Your calendar fills itself. Appointments, site visits and demos are booked directly.
+•	You talk only to serious buyers. Time wasters and wrong-fit leads are filtered out first.
+•	Lower cost per lead handled. One AI agent can replace repetitive calling work, so your people focus on closing.
+•	Easy to start. Use a ready template for your profession and go live without technical knowledge.
+•	Full visibility. Every call has a recording (where permitted), transcript, summary and outcome.
+For mid-size and large businesses:
+•	Handle thousands of calls at once with consistent quality.
+•	Standardise scripts, compliance language and objection handling across teams and locations.
+•	Integrate with CRM, calendar, WhatsApp and internal systems through APIs.
+•	Reduce cost per qualified lead and speed up the sales cycle.
+•	Get analytics on what customers actually say, to improve campaigns and products.
+Illustrative value story for the website (replace with your real case-study data): a clinic that receives 300 enquiries a month and answers only part of them in time can recover a measurable share of lost bookings once every enquiry is called within a minute. Use real pilot numbers as soon as you have them.
+6. The Master Visitor Journey and Conversion Workflow
+This is the core workflow that connects the website to your AI tool.
+6.1 Journey Stages
+1.	Attract: Google (use-case and industry searches), LinkedIn, YouTube demos, WhatsApp shares, partner referrals, comparison articles, paid ads.
+2.	Land: visitor arrives on the home page, an industry page or a use-case page (each with its own relevant demo).
+3.	Experience: visitor hears the AI in action (three choices: "Call me now", "Listen to a sample call", "Try the interactive demo").
+4.	Evaluate: visitor checks how it works, integrations, pricing, trust and compliance, case studies and comparisons.
+5.	Convert: visitor books a demo or appointment, starts a pilot, or requests a quote.
+6.	Nurture: automatic confirmation, reminders, and follow-up calls from Reseny itself.
+7.	Onboard and grow: pilot, go-live, optimisation, referral.
+6.2 Backend Workflow (Your Product Selling Your Product)
+1.	Visitor submits the form (name, phone, business type, monthly lead volume, preferred language, preferred time).
+2.	The lead is stored in your CRM with its source page and campaign tags.
+3.	Reseny AI calls the visitor within seconds if they chose "Call me now," or at the chosen time.
+4.	The AI confirms interest, asks three or four qualifying questions (business type, current lead handling, volume, timeline), and scores the lead.
+5.	Hot lead: the AI offers available demo slots from your live calendar and books one. A confirmation goes out on WhatsApp, SMS and email with the meeting link.
+6.	Warm lead: the AI sends a case study and pricing sheet, then schedules a follow-up call.
+7.	Cold or not interested: tagged, added to a slow nurture list, and respected as do-not-call if requested.
+8.	Reminders: a message the day before and a call or message an hour before the demo.
+9.	No-show recovery: an automatic same-day call and WhatsApp offering a new slot.
+10.	Post-demo: the sales team logs the outcome, the AI follows up on the proposal, and objections are handled.
+11.	Internal alert: your sales team gets a summary (transcript, score, recording link) for every hot lead.
+This journey doubles as your best case study: "Reseny uses Reseny."
+6.3 Conversion Points on Every Page
+•	A persistent header button: Book a Demo.
+•	A secondary button: Get a Call Now.
+•	A floating widget: chat and call option.
+•	Exit-intent offer: free pilot, ROI report or sample call recording.
+•	An inline mini-form at the end of every section-heavy page.
+7. Website Sitemap: Pages and Sub-Pages
+The structure below combines the best of all four competitors and adds what they miss. Main navigation (keep it to seven items): Product, Solutions, Pricing, Resources, Trust, Company, Book a Demo (button).
+7.1 Full Sitemap
+1. Home (resenyconnect.com)
+2. Product
+•	2.1 Product Overview (the lead-to-appointment engine)
+•	2.2 AI Voice Agent (outbound and inbound calling)
+•	2.3 Lead Qualification Engine
+•	2.4 Smart Follow-Up Cadence (voice, WhatsApp, SMS, email)
+•	2.5 Appointment Booking and Calendar Sync
+•	2.6 Multilingual Voice
+•	2.7 Campaign Manager and Bulk Calling
+•	2.8 Human Handoff and Live Transfer
+•	2.9 Analytics, Call Recordings and Transcripts
+•	2.10 Agent Studio (no-code builder) and Template Library
+•	2.11 Integrations (CRM, calendar, WhatsApp, telephony, automation tools)
+•	2.12 Developers: API, Webhooks, Documentation
+3. Solutions
+•	3.1 By Industry: Real Estate, Education, Healthcare and Clinics, BFSI and Loans, Insurance, Automotive, E-commerce and D2C, Travel and Hospitality, Restaurants, Home Services and Interiors, Salons and Fitness, Recruitment and HR, SaaS and B2B, Events, Logistics
+•	3.2 By Use Case: Lead Qualification, Appointment Booking, Follow-Up and Nurturing, No-Show Recovery, Reminders and Collections, Customer Feedback and Surveys, Cold Outreach and Prospecting, Inbound Call Answering, Candidate Screening
+•	3.3 By Team Size: Small Business, Growing Business, Enterprise
+•	3.4 For Agencies and Resellers (partner program)
+4. Pricing
+•	4.1 Plans (Starter, Growth, Scale, Enterprise)
+•	4.2 ROI Calculator
+•	4.3 Pricing FAQ
+5. Resources
+•	5.1 Case Studies 
+•	5.2 Sample Call Library
+•	5.3 Guides and E-books (playbooks per industry)
+•	5.4 Webinars and Events
+•	5.5 Help Center and Documentation
+6. Trust Center
+•	6.1 Security and Data Privacy
+•	6.2 Calling Compliance (consent, calling windows, do-not-disturb handling, number series, disclosure)
+•	6.3 Data Residency and Deployment Options
+•	6.4 Responsible AI and Human Oversight
+•	6.5 Legal: Privacy Policy, Terms of Service, Cookie Policy, Data Processing Agreement
+•	6.6 System Status
+7. Company
+•	7.1 About Us (Reseny Business Mercantech)
+•	7.2 Mission and Vision
+•	7.3 Contact Us (sales, support, partnerships, with phone, email, WhatsApp, address, map)
+8. Conversion pages
+•	8.1 Book a Demo (multi-step form plus calendar)
+•	8.2 Get a Call Now (live AI demo)
+•	8.3 Start Free Pilot
+•	8.4 Thank-you and confirmation pages (each also triggers the follow-up workflow)
+•	8.5 Login and Dashboard link
+9. Campaign landing pages (one per ad campaign or industry, stripped navigation, single call to action)
+7.2 Home Page Blueprint (Section by Section)
+1.	Hero: headline "Every lead called. Every appointment booked." with a sub-line explaining the outcome in one sentence. Two buttons: Get a call from Reseny now and Book a demo. Beside it, an animated phone mock-up where a conversation plays out and a calendar slot fills.
+2.	Instant demo strip: a phone number field and language selector: "Enter your number and our AI will call you in 30 seconds." Below it, three sample-call cards (real estate, clinic, education) with audio and live transcript animation.
+3.	The problem: a short, animated counter story: leads that wait lose interest; missed calls are lost revenue; manual follow-up gets forgotten.
+4.	How it works in 4 steps: Connect your leads, Teach your agent, Reseny calls and follows up, Appointments land on your calendar. Each step animates in on scroll.
+5.	Outcome tiles: more leads reached, more appointments, faster response, lower cost, 24x7 coverage (fill with your own measured numbers).
+6.	Features grid: qualification, follow-up cadence, multilingual, calendar booking, human handoff, analytics, integrations.
+7.	Industry carousel: cards for each sector linking to its page.
+8.	For small businesses band: plain-language benefits and a "Start in a day" promise.
+9.	Integrations wall: CRM, calendar, WhatsApp, telephony and automation logos.
+10.	Case studies and testimonials: with real numbers once pilots are done.
+11.	Trust and compliance block: the main promises.
+12.	Pricing teaser and ROI calculator widget.
+13.	Comparison snippet: "Why teams choose Reseny."
+14.	FAQ (cost, languages, setup time, compliance, handoff, data security).
+15.	Final call to action: a large "Let Reseny call you" banner with the live demo form.
+16.	Footer: all key links, contact numbers, social links, legal, newsletter, and the line "Reseny is an initiative of Reseny Business Mercantech, part of Astransys Group."
+7.3 Template for Every Solution (Industry or Use Case) Page
+1.	Headline written in the industry's own words.
+2.	Pain points specific to that sector.
+3.	An interactive demo for that sector (sample call plus live transcript).
+4.	A visual workflow diagram showing the sector's call-to-booking journey.
+5.	Ready template, listing the questions the agent asks.
+6.	Integrations that the sector uses.
+7.	Result stories and metrics.
+8.	Compliance notes for that sector.
+9.	FAQ and a sector-specific call to action.
+7.4 Key Page Content Notes
+•	Pricing: show clear tiers, what is included, and what is custom. Add an ROI calculator (leads per month, current response time, average deal value) that outputs a projected recovered revenue estimate clearly labelled as an estimate.
+•	Trust Center: write it in plain language first, legal language second. Have a lawyer review it.
+•	Comparison pages: factual and fair. Compare features that you can verify and avoid disparaging language.
+•	Sample Call Library: short, consented or synthetic example calls per industry. Never publish real customer recordings without permission.
+8. Animation and Experience Specification
+The site should feel alive, but fast. Animation must explain the product, not decorate it.
+•	Hero animation: a phone shows a call in progress; speech bubbles appear; a calendar tile flips to "Booked." Loops softly.
+•	Live voice waveform: a pulsing waveform that reacts when a sample call plays.
+•	Scroll storytelling: the "how it works" section pins in place and advances step by step as the visitor scrolls.
+•	Animated counters: numbers count up when they enter the screen (only real figures).
+•	Lead-to-appointment flow diagram: nodes light up in sequence (Lead, Call, Qualify, Follow-up, Booked).
+•	Industry cards: subtle hover lift, icon animation, and a preview of that sector's sample call.
+•	Micro-interactions: buttons with soft glow, form fields with progress indicators, smooth page transitions.
+•	Dark and light themes with a clean, premium look.
+•	Performance rules: target fast loading on mobile networks; lazy-load videos and heavy animations; compress images; respect the "reduce motion" setting; keep layouts accessible (contrast, keyboard use, alt text).
+•	Suggested stack (examples, not requirements): Next.js with Tailwind, Framer Motion or GSAP for animation, Lottie for icon animations, a headless CMS for the blog, and a CDN for speed.
+9. Demo and Appointment Booking System
+9.1 The Booking Form (Three Short Steps)
+1.	About you: name, phone, work email.
+2.	About your business: company name, industry, team size, monthly leads or calls, current tools.
+3.	Choose: what you want (AI calling for sales, appointments, support, collections), preferred language, and a slot from a live calendar.
+Show progress, keep every step short, save partial entries, and offer "Prefer a call right now?" at every step.
+9.2 Automatic Actions After Submission
+•	Instant confirmation page and email.
+•	WhatsApp or SMS confirmation with the meeting link.
+•	CRM record created with source tags (page, campaign, language).
+•	Alert to the sales owner.
+•	Reseny AI call to qualify (if the visitor opted for it).
+•	Reminder sequence before the demo and no-show recovery after it.
+10. Mission, Vision and Values (Draft for Your Review)
+Mission: To give every business, from a one-person shop to a national enterprise, an AI sales and service team that responds to every customer instantly, follows up relentlessly, and turns conversations into confirmed appointments.
+Vision: To become the most trusted agentic-AI platform for customer conversations in emerging markets, where no lead goes unanswered and no business is too small to grow with AI.
+Values:
+•	Customer outcomes first: we measure ourselves by appointments booked and revenue recovered.
+•	Respect for the person on the call: consent, honesty about being an AI, and easy opt-out.
+•	Simple for owners: powerful inside, effortless outside.
+•	Trust by design: privacy, security and compliance are product features.
+•	Local fluency: language, culture and context matter.
+•	Engineering heritage: built on the foundation of Astransys, an IT company since 2017.
+Corporate story line for the About page: Reseny Business Mercantech is an initiative by Astransys Group. Astransys Global Pvt Ltd, a leading IT company since 2017, brings years of software engineering and delivery experience. Reseny is the group's focused answer to one of business's oldest problems: leads that go cold because nobody called back in time.
+11. Services Page Structure
+1.	Reseny Connect platform (subscription): the self-serve and managed AI calling platform.
+2.	Done-for-you setup: script design, voice and language selection, CRM and calendar integration, compliance review, go-live support.
+3.	Custom agent development: bespoke workflows, API integrations, private deployment.
+4.	Campaign management: managed outbound campaigns with reporting.
+5.	Integration and automation services from our expert engineering team.
+6.	Training and optimisation: call review, script tuning, monthly performance reviews.
+7.	Partner program for agencies and freelancers.
+Each service gets a card, a short description, who it is for, what is delivered, timeline, and a "Talk to us" button.
+12. Success Metrics to Track and Show 
+•	Visitor-to-demo-request rate
+•	Live-demo ("Get a Call Now") completion rate
+•	Time from enquiry to first AI call
+•	Qualified lead rate and demo show-up rate
+•	Pilot to paid conversion
+•	Cost per qualified lead and per demo
+•	Page speed and bounce rate
